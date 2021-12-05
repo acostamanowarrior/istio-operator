@@ -10,10 +10,10 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/common/cni"
-	"github.com/maistra/istio-operator/pkg/controller/common/helm"
-	"github.com/maistra/istio-operator/pkg/controller/versions"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/cni"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/helm"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/versions"
 )
 
 // InstallCNI makes sure all Istio CNI resources have been created.  CRDs are located from

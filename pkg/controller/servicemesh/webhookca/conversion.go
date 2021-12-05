@@ -12,7 +12,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/maistra/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
 )
 
 // this file contains implementations specific to validating webhooks

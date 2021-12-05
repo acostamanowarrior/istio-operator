@@ -13,9 +13,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/yaml"
 
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	v2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
-	"github.com/maistra/istio-operator/pkg/controller/common"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	v2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
 )
 
 // GetChartsDir returns the location of the Helm charts. Similar layout to istio.io/istio/install/kubernetes/helm.

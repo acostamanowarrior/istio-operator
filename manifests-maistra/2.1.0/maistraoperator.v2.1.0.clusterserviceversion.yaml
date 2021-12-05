@@ -10,7 +10,7 @@ metadata:
     categories: "OpenShift Optional, Integration & Delivery"
     capabilities: "Seamless Upgrades"
     certified: "false"
-    repository: https://github.com/maistra/istio-operator
+    repository: https://github.com/acostamanowarrior/istio-operator
     description: |-
       The Maistra Operator enables you to install, configure, and manage an instance of Maistra service mesh. Maistra is based on the open source Istio project.
 
@@ -196,7 +196,7 @@ spec:
   - name: Istio
     url: https://istio.io/
   - name: Operator Source Code
-    url: https://github.com/Maistra/istio-operator
+    url: https://github.com/acostamanowarrior/istio-operator
   - name: Bugs
     url: https://issues.redhat.com/projects/MAISTRA
   replaces: maistraoperator.v2.0.8

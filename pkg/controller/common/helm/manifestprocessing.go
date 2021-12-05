@@ -16,8 +16,8 @@ import (
 	kubectl "k8s.io/kubectl/pkg/util"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/maistra/istio-operator/pkg/apis/maistra/status"
-	"github.com/maistra/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/status"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
 )
 
 type ManifestProcessor struct {

@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	v2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	. "github.com/maistra/istio-operator/pkg/controller/common/test"
-	"github.com/maistra/istio-operator/pkg/controller/versions"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	v2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	. "github.com/acostamanowarrior/istio-operator/pkg/controller/common/test"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/versions"
 	"k8s.io/apimachinery/pkg/util/sets"
 	clienttesting "k8s.io/client-go/testing"
 )

@@ -9,10 +9,10 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	"github.com/maistra/istio-operator/pkg/apis/maistra/status"
-	maistrav2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/hacks"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/status"
+	maistrav2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/hacks"
 )
 
 func (r *controlPlaneInstanceReconciler) Delete(ctx context.Context) error {

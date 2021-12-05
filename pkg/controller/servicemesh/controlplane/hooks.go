@@ -10,8 +10,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/maistra/istio-operator/pkg/apis/maistra/status"
-	"github.com/maistra/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/status"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
 )
 
 func (r *controlPlaneInstanceReconciler) processNewComponent(name string, status *status.ComponentStatus) error {

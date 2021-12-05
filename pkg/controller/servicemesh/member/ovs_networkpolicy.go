@@ -6,7 +6,7 @@ import (
 	"github.com/go-logr/logr"
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	"github.com/maistra/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
 
 	networking "k8s.io/api/networking/v1"
 	"k8s.io/apimachinery/pkg/api/errors"

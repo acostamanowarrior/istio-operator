@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	v2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	v2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
 )
 
 func populateControlPlaneLogging(logging *v2.LoggingConfig, values map[string]interface{}) error {

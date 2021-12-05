@@ -9,8 +9,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	maistrav1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	"github.com/maistra/istio-operator/pkg/controller/common"
+	maistrav1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
 )
 
 const (

@@ -8,11 +8,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/webhook/conversion"
 
 	// This is required to ensure v1.ConverterV1V2 and v1.ConverterV2V1 are properly initialized
-	_ "github.com/maistra/istio-operator/pkg/apis/maistra/conversion"
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	webhookcommon "github.com/maistra/istio-operator/pkg/controller/servicemesh/webhooks/common"
-	"github.com/maistra/istio-operator/pkg/controller/servicemesh/webhooks/mutation"
-	"github.com/maistra/istio-operator/pkg/controller/servicemesh/webhooks/validation"
+	_ "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/conversion"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	webhookcommon "github.com/acostamanowarrior/istio-operator/pkg/controller/servicemesh/webhooks/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/servicemesh/webhooks/mutation"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/servicemesh/webhooks/validation"
 )
 
 const componentName = "servicemesh-webhook-server"

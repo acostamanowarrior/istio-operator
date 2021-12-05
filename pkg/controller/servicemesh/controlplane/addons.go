@@ -12,11 +12,11 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/maistra/istio-operator/pkg/apis/external"
-	kialiv1alpha1 "github.com/maistra/istio-operator/pkg/apis/external/kiali/v1alpha1"
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	v2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
-	"github.com/maistra/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/external"
+	kialiv1alpha1 "github.com/acostamanowarrior/istio-operator/pkg/apis/external/kiali/v1alpha1"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	v2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
 )
 
 func (r *controlPlaneInstanceReconciler) PatchAddons(ctx context.Context) error {

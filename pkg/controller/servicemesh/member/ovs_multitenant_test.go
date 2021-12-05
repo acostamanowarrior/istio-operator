@@ -11,8 +11,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/maistra/istio-operator/pkg/controller/common/test"
-	"github.com/maistra/istio-operator/pkg/controller/common/test/assert"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test/assert"
 )
 
 // fast backoff to prevent test from running too long

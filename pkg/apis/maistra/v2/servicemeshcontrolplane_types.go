@@ -3,8 +3,8 @@ package v2
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/maistra/istio-operator/pkg/apis/maistra/status"
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/status"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
 )
 
 func init() {

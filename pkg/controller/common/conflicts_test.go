@@ -12,7 +12,7 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	"github.com/maistra/istio-operator/pkg/controller/common/test/assert"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test/assert"
 )
 
 var (

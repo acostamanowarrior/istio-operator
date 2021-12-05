@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/maistra/istio-operator/pkg/controller/podlocality"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/podlocality"
 )
 
 func init() {

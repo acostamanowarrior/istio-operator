@@ -10,7 +10,7 @@ import (
 	apiextensionsv1beta1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/maistra/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
 )
 
 // CacheSyncWaitDuration is the how long the reconciler will skip reconciliation of a resource whose status was just

@@ -11,8 +11,8 @@ import (
 	pkgerrors "github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/versions"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/versions"
 
 	multusv1 "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/apis/k8s.cni.cncf.io/v1"
 	core "k8s.io/api/core/v1"

@@ -3,9 +3,9 @@ package controlplane
 import (
 	"testing"
 
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/common/cni"
-	"github.com/maistra/istio-operator/pkg/controller/common/test"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/cni"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test"
 	appsv1 "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/rbac/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

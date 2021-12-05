@@ -3,7 +3,7 @@ package v1
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/maistra/istio-operator/pkg/apis/maistra/status"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/status"
 )
 
 // EDIT THIS FILE!  THIS IS SCAFFOLDING FOR YOU TO OWN!

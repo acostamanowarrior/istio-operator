@@ -18,13 +18,13 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	logf "sigs.k8s.io/controller-runtime/pkg/runtime/log"
 
-	configv1alpha2 "github.com/maistra/istio-operator/pkg/apis/external/istio/config/v1alpha2"
-	networkingv1alpha3 "github.com/maistra/istio-operator/pkg/apis/external/istio/networking/v1alpha3"
-	securityv1beta1 "github.com/maistra/istio-operator/pkg/apis/external/istio/security/v1beta1"
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	v2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/common/cni"
+	configv1alpha2 "github.com/acostamanowarrior/istio-operator/pkg/apis/external/istio/config/v1alpha2"
+	networkingv1alpha3 "github.com/acostamanowarrior/istio-operator/pkg/apis/external/istio/networking/v1alpha3"
+	securityv1beta1 "github.com/acostamanowarrior/istio-operator/pkg/apis/external/istio/security/v1beta1"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	v2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/cni"
 )
 
 // these components have to be installed in the specified order

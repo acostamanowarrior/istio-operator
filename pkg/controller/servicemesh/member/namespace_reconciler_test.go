@@ -11,10 +11,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/common/test"
-	"github.com/maistra/istio-operator/pkg/controller/common/test/assert"
-	"github.com/maistra/istio-operator/pkg/controller/versions"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test/assert"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/versions"
 )
 
 func TestReconcileNamespaceInMesh(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
 	"github.com/magiconair/properties"
-	maistrav2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
+	maistrav2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
 	"github.com/mitchellh/mapstructure"
 	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
 	kubemetrics "github.com/operator-framework/operator-sdk/pkg/kube-metrics"
@@ -30,11 +30,11 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/runtime/log"
 	"sigs.k8s.io/controller-runtime/pkg/runtime/signals"
 
-	"github.com/maistra/istio-operator/pkg/apis"
-	maistrav1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	"github.com/maistra/istio-operator/pkg/controller"
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/version"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis"
+	maistrav1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/version"
 )
 
 // Change below variables to serve metrics on different host or port.

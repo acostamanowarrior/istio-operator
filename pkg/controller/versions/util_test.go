@@ -3,8 +3,8 @@ package versions
 import (
 	"testing"
 
-	maistrav1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	maistrav2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
+	maistrav1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	maistrav2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/utils/pointer"
 )

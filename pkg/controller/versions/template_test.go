@@ -8,8 +8,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	logf "sigs.k8s.io/controller-runtime/pkg/runtime/log"
 
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	"github.com/maistra/istio-operator/pkg/controller/common"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
 )
 
 func TestGetSMCPTemplateWithSlashReturnsError(t *testing.T) {

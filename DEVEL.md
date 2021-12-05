@@ -237,6 +237,6 @@ This produces the following log format, which is much easier to read:
 Here are the steps required to seed a new version of the operator:
 
 1. Rename the directory corresponding to the latest version of each resource type to the new version (e.g. from v1.1 to v1.2).
-2. Update the Makefile to add a target to copy the resources from the previous version (e.g. copy github.com/maistra/istio-operator[maistra-1.1]/resources/helm/v1.1 to /resources/helm/v1.1).  This should be done for the charts and the smcp templates.
+2. Update the Makefile to add a target to copy the resources from the previous version (e.g. copy github.com/acostamanowarrior/istio-operator[maistra-1.1]/resources/helm/v1.1 to /resources/helm/v1.1).  This should be done for the charts and the smcp templates.
 3. Update the Makefile to add targets for collecting the resources for the new versions (e.g. collect-1.2-charts, collect-1.2-templates).
 4. Update `MAISTRA_VERSION` in the Makefile to the new version.

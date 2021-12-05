@@ -19,10 +19,10 @@ import (
 	apiextensionsv1beta1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/hacks"
-	"github.com/maistra/istio-operator/pkg/controller/servicemesh/webhookca"
-	"github.com/maistra/istio-operator/pkg/controller/servicemesh/webhooks"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/hacks"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/servicemesh/webhookca"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/servicemesh/webhooks"
 
 	rbacv1 "k8s.io/api/rbac/v1"
 	"k8s.io/apimachinery/pkg/api/errors"

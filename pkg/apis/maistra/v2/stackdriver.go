@@ -1,7 +1,7 @@
 package v2
 
 import (
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
 )
 
 // StackdriverAddonConfig configuration specific to Stackdriver integration.

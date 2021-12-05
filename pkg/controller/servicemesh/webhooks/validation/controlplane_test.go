@@ -12,16 +12,16 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	webhookadmission "sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	"github.com/maistra/istio-operator/pkg/apis/external"
-	configv1alpha2 "github.com/maistra/istio-operator/pkg/apis/external/istio/config/v1alpha2"
-	networkingv1alpha3 "github.com/maistra/istio-operator/pkg/apis/external/istio/networking/v1alpha3"
-	securityv1beta1 "github.com/maistra/istio-operator/pkg/apis/external/istio/security/v1beta1"
-	maistrav1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	maistrav2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/common/test"
-	"github.com/maistra/istio-operator/pkg/controller/common/test/assert"
-	"github.com/maistra/istio-operator/pkg/controller/versions"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/external"
+	configv1alpha2 "github.com/acostamanowarrior/istio-operator/pkg/apis/external/istio/config/v1alpha2"
+	networkingv1alpha3 "github.com/acostamanowarrior/istio-operator/pkg/apis/external/istio/networking/v1alpha3"
+	securityv1beta1 "github.com/acostamanowarrior/istio-operator/pkg/apis/external/istio/security/v1beta1"
+	maistrav1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	maistrav2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test/assert"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/versions"
 )
 
 func init() {

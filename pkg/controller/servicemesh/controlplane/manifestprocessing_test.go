@@ -11,11 +11,11 @@ import (
 	"k8s.io/helm/pkg/manifest"
 	"k8s.io/helm/pkg/releaseutil"
 
-	"github.com/maistra/istio-operator/pkg/apis/maistra/status"
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/common/cni"
-	"github.com/maistra/istio-operator/pkg/controller/common/test"
-	"github.com/maistra/istio-operator/pkg/controller/common/test/assert"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/status"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/cni"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test/assert"
 )
 
 func TestReadinessWhenCacheNotSynced(t *testing.T) {

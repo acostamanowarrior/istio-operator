@@ -3,7 +3,7 @@ package v1alpha2
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/maistra/istio-operator/pkg/apis/external"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/external"
 )
 
 // the following types are not available in istio/client-go

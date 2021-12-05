@@ -19,7 +19,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
 )
 
 type ControllerResources struct {

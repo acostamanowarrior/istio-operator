@@ -9,7 +9,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/runtime/log"
 	"sigs.k8s.io/yaml"
 
-	v2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
+	v2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
 )
 
 var logger = logf.Log.WithName("smcp-converter")

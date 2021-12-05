@@ -1,4 +1,4 @@
-module github.com/maistra/istio-operator
+module github.com/acostamanowarrior/istio-operator
 
 go 1.15
 

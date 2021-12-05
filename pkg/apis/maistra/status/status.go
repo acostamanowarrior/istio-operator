@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/maistra/istio-operator/pkg/version"
+	"github.com/acostamanowarrior/istio-operator/pkg/version"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

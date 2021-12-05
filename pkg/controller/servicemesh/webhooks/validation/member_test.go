@@ -14,9 +14,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 	webhookadmission "sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	maistra "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	"github.com/maistra/istio-operator/pkg/controller/common/test"
-	"github.com/maistra/istio-operator/pkg/controller/common/test/assert"
+	maistra "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/test/assert"
 )
 
 func TestDeletedMemberIsAlwaysAllowed(t *testing.T) {

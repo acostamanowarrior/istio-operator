@@ -20,16 +20,16 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/yaml"
 
-	"github.com/maistra/istio-operator/pkg/apis/maistra/conversion"
-	"github.com/maistra/istio-operator/pkg/apis/maistra/status"
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	v2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
-	"github.com/maistra/istio-operator/pkg/bootstrap"
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/common/cni"
-	"github.com/maistra/istio-operator/pkg/controller/hacks"
-	"github.com/maistra/istio-operator/pkg/controller/versions"
-	buildinfo "github.com/maistra/istio-operator/pkg/version"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/conversion"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/status"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	v2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
+	"github.com/acostamanowarrior/istio-operator/pkg/bootstrap"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/cni"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/hacks"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/versions"
+	buildinfo "github.com/acostamanowarrior/istio-operator/pkg/version"
 )
 
 type controlPlaneInstanceReconciler struct {

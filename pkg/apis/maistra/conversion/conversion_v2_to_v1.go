@@ -5,10 +5,10 @@ import (
 
 	conversion "k8s.io/apimachinery/pkg/conversion"
 
-	"github.com/maistra/istio-operator/pkg/apis/maistra/status"
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	v2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
-	"github.com/maistra/istio-operator/pkg/controller/versions"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/status"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	v2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/versions"
 )
 
 func v2ToV1Hacks(values map[string]interface{}, out *v1.ControlPlaneSpec) error {

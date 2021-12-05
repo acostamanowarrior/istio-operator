@@ -1,6 +1,6 @@
 package v2
 
-import v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
+import v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
 
 // JaegerAddonConfig configuration specific to Jaeger integration.
 // XXX: this currently deviates from upstream, which creates a jaeger all-in-one deployment manually

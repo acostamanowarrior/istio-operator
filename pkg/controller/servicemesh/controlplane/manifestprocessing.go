@@ -3,8 +3,8 @@ package controlplane
 import (
 	"context"
 
-	"github.com/maistra/istio-operator/pkg/controller/common"
-	"github.com/maistra/istio-operator/pkg/controller/common/helm"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/common/helm"
 )
 
 func (r *controlPlaneInstanceReconciler) processComponentManifests(ctx context.Context, chartName string) (madeChanges bool, err error) {

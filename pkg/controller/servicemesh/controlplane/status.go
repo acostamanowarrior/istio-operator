@@ -1,8 +1,8 @@
 package controlplane
 
 import (
-	"github.com/maistra/istio-operator/pkg/apis/maistra/status"
-	v2 "github.com/maistra/istio-operator/pkg/apis/maistra/v2"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/status"
+	v2 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v2"
 )
 
 func updateControlPlaneConditions(s *v2.ControlPlaneStatus, err error) {

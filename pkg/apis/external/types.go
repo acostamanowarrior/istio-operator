@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer/json"
 
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
 )
 
 // Base is common type for all Istio types.  All typed stucts will

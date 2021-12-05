@@ -3,7 +3,7 @@ package v1beta1
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/maistra/istio-operator/pkg/apis/external"
+	"github.com/acostamanowarrior/istio-operator/pkg/apis/external"
 )
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object

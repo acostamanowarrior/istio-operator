@@ -8,6 +8,6 @@ keywords:
   - maistra
   - threescale
 sources:
-  - http://github.com/Maistra/istio-operator
+  - http://github.com/acostamanowarrior/istio-operator
 engine: gotpl
 icon: https://istio.io/favicons/android-192x192.png

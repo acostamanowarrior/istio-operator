@@ -10,7 +10,7 @@ import (
 type ContextValueKey string
 
 var (
-	logContextKey ContextValueKey = "github.com/maistra/istio-operator/pkg/controller/common/logr.Logger"
+	logContextKey ContextValueKey = "github.com/acostamanowarrior/istio-operator/pkg/controller/common/logr.Logger"
 
 	fallBackLogger = logf.Log
 )

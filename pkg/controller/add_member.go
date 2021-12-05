@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/maistra/istio-operator/pkg/controller/servicemesh/member"
+	"github.com/acostamanowarrior/istio-operator/pkg/controller/servicemesh/member"
 )
 
 func init() {

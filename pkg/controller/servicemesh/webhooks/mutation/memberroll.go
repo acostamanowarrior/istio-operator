@@ -10,8 +10,8 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/runtime/log"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	maistrav1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
-	webhookcommon "github.com/maistra/istio-operator/pkg/controller/servicemesh/webhooks/common"
+	maistrav1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
+	webhookcommon "github.com/acostamanowarrior/istio-operator/pkg/controller/servicemesh/webhooks/common"
 )
 
 type MemberRollMutator struct {

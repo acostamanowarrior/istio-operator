@@ -1,7 +1,7 @@
 package v2
 
 import (
-	v1 "github.com/maistra/istio-operator/pkg/apis/maistra/v1"
+	v1 "github.com/acostamanowarrior/istio-operator/pkg/apis/maistra/v1"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
