@@ -13,7 +13,7 @@ fi
 BIN_DIR="${OUT_DIR}/bin"
 mkdir -p ${BIN_DIR}
 PROJECT_NAME="istio-operator"
-REPO_PATH="github.com/maistra/istio-operator"
+REPO_PATH="github.com/acostamanowarrior/istio-operator"
 BUILD_PATH="${REPO_PATH}/cmd/manager"
 
 : ${VERSION:=development}

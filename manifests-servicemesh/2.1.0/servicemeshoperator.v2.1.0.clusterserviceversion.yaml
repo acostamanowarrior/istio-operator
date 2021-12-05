@@ -12,13 +12,13 @@ metadata:
     categories: "OpenShift Optional, Integration & Delivery"
     capabilities: "Seamless Upgrades"
     certified: "false"
-    repository: https://github.com/maistra/istio-operator
+    repository: https://github.com/acostamanowarrior/istio-operator
     description: |-
       The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.
 
     containerImage: registry.redhat.io/openshift-service-mesh/istio-rhel8-operator:2.1.0
     createdAt: 2021-10-05T13:11:37EDT
-    support: Red Hat, Inc. 
+    support: Red Hat, Inc.
     olm.skipRange: ">=1.0.2 <2.1.0-0"
     operators.openshift.io/infrastructure-features: '["Disconnected"]'
     alm-examples: |-
@@ -72,7 +72,7 @@ metadata:
           "spec": {
             "members": [
               "your-project",
-              "another-of-your-projects" 
+              "another-of-your-projects"
             ]
           }
         },
@@ -137,7 +137,7 @@ spec:
       the control plane.  The user creating the **ServiceMeshMember** resource must have permission to *use* the
       **ServiceMeshControlPlane** object.  The adminstrator for the project containing the control plane can grant
       individual users or groups the *use* permissions.
-    
+
     2. A **ServiceMeshMemberRoll** resource may be created in the project containing the control plane.  This resource
       contains a single *members* list of all the projects that should belong in the mesh.  The resource must be named
       *default*.  The user creating the resource must have *edit* or *admin* permissions for all projects in the
@@ -244,7 +244,7 @@ spec:
   - name: Istio
     url: https://istio.io/
   - name: Operator Source Code
-    url: https://github.com/Maistra/istio-operator
+    url: https://github.com/acostamanowarrior/istio-operator
   - name: Bugs
     url: https://issues.redhat.com/projects/OSSM
   replaces: servicemeshoperator.v2.0.8
@@ -640,7 +640,7 @@ spec:
               serviceAccountName: istio-operator
               containers:
                 - name: istio-operator
-                  image: registry.redhat.io/openshift-service-mesh/istio-rhel8-operator:2.1.0
+                  image: quay.io/andcosta/istio-operator-dev:v2.1-1
                   ports:
                     - containerPort: 11999
                       name: validation

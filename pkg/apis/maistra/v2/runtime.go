@@ -255,6 +255,8 @@ type CommonContainerConfig struct {
 	ImagePullSecrets []corev1.LocalObjectReference `json:"imagePullSecrets,omitempty"`
 	// +optional
 	Resources *corev1.ResourceRequirements `json:"resources,omitempty"`
+	// +optional
+	Readiness *corev1.Probe `json:"readinessProbe,omitempty"`
 }
 
 // PodDisruptionBudget details

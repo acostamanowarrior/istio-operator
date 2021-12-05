@@ -97,13 +97,15 @@ spec:
             protocol: TCP
           - containerPort: 8188
             protocol: TCP
+{{- if .Values.pilot.readiness }}
           readinessProbe:
             httpGet:
               path: /ready
               port: 8080
-            initialDelaySeconds: 1
-            periodSeconds: 3
-            timeoutSeconds: 5
+            initialDelaySeconds: {{ .Values.pilot.readinessInitialDelaySeconds }}
+            periodSeconds: {{ .Values.pilot.readinessPeriodSeconds }}
+            timeoutSeconds: {{ .Values.pilot.readinessTimeoutSeconds }}
+{{- end }}
           env:
           - name: ENABLE_MAISTRA_EXTENSIONS
             value: "{{ .Values.wasmExtensions.enabled }}"

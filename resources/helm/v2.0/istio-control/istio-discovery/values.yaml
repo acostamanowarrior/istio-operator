@@ -22,6 +22,15 @@ pilot:
       cpu: 500m
       memory: 2048Mi
 
+  # Default readinessProbe values
+  readinessProbe:
+    httpGet:
+      path: /ready
+      port: 8080
+    initialDelaySeconds: 5
+    periodSeconds: 5
+    timeoutSeconds: 5
+    
   # Applications namespace list pilot manages
   appNamespaces: []
 

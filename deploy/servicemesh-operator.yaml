@@ -4450,6 +4450,18 @@ spec:
                                     x-kubernetes-int-or-string: true
                                   type: object
                               type: object
+                            readiness:
+                              properties:
+                                initialDelaySeconds:
+                                  format: int32
+                                  type: integer
+                                periodSeconds:
+                                  format: int32
+                                  type: integer
+                                timeoutSeconds:
+                                  format: int32
+                                  type: integer
+                              type: object
                           type: object
                         deployment:
                           properties:
@@ -9310,6 +9322,18 @@ spec:
                                         x-kubernetes-int-or-string: true
                                       type: object
                                   type: object
+                                readiness:
+                                  properties:
+                                    initialDelaySeconds:
+                                      format: int32
+                                      type: integer
+                                    periodSeconds:
+                                      format: int32
+                                      type: integer
+                                    timeoutSeconds:
+                                      format: int32
+                                      type: integer
+                                  type: object
                               type: object
                             deployment:
                               properties:
@@ -10680,7 +10704,7 @@ spec:
       serviceAccountName: istio-operator
       containers:
       - name: istio-operator
-        image: registry.redhat.io/openshift-service-mesh/istio-rhel8-operator:2.1.0
+        image: quay.io/andcosta/istio-operator-dev:v2.1-1
         ports:
         - containerPort: 11999
           name: validation
