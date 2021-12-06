@@ -44,9 +44,9 @@ $(shell git remote add ${GIT_UPSTREAM_REMOTE} https://github.com/acostamanowarri
 endif
 
 ifeq "${COMMUNITY}" "true"
-BUILD_TYPE = maistra
-else
 BUILD_TYPE = servicemesh
+else
+BUILD_TYPE = maistra
 endif
 
 $(info   Building $(BUILD_TYPE) operator)
