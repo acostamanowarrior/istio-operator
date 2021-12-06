@@ -92,7 +92,7 @@ spec:
           - name: webhook
             containerPort: 15017
           - containerPort: 15053
-{{- if Values.pilot.readiness }}
+{{- if .Values.pilot.readiness }}
           readinessProbe:
             httpGet:
               path: /ready

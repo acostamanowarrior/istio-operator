@@ -2,7 +2,6 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: ClusterServiceVersion
 metadata:
   name: servicemeshoperator.v2.1.0
-  namespace: placeholder
   labels:
     operatorframework.io/arch.amd64: supported
     operatorframework.io/arch.s390x: supported
