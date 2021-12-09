@@ -940,7 +940,7 @@ func populateCommonContainerConfig(in *v1.HelmValues, out *v2.CommonContainerCon
 			setContainer = true
 		}
 		in.RemoveField("readiness")
-	} else if err := nil {
+	} else if err != nil {
 		return false, err
 	}
 
