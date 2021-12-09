@@ -353,14 +353,14 @@ func populateCommonContainerConfigValues(containerConfig *v2.CommonContainerConf
 			return err
 		}
 	}
-  if containerConfig.Readiness != nil {
+        if containerConfig.Readiness != nil {
 		if len(readinessValues) > 0 {
 			if err := setHelmValue(componentValues, "readiness", readinessValues); err != nil {
 				return err
 			}
+		} else {
+			return err
 		}
-	} else {
-		return err
 	}
 
 	return nil
