@@ -336,6 +336,10 @@ spec:
           resources:
             limits: {}
             requirements: {}
+          readiness:
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            timeoutSeconds: 3
       security: {} # for configuring citadel,, similar to pilot above
       galley: {} # similar to pilot above
       mixer: {} # v1.x mixer, similar to pilot above

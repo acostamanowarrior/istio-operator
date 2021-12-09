@@ -353,6 +353,15 @@ func populateCommonContainerConfigValues(containerConfig *v2.CommonContainerConf
 			return err
 		}
 	}
+  if containerConfig.Readiness != nil {
+		if len(readinessValues) > 0 {
+			if err := setHelmValue(componentValues, "readiness", readinessValues); err != nil {
+				return err
+			}
+		}
+	} else {
+		return err
+	}
 
 	return nil
 }
@@ -920,6 +929,18 @@ func populateCommonContainerConfig(in *v1.HelmValues, out *v2.CommonContainerCon
 		}
 		in.RemoveField("resources")
 	} else if err != nil {
+		return false, err
+	}
+  if readiness, ok, err := in.GetMap("readiness"); ok {
+		if len(readinessValues) > 0 {
+			out.Readiness = &corev1.Probe{}
+			if err := decodeAndRemoveFromValues(readinessValues, out.Readiness); err != nil {
+				return false, err
+			}
+			setContainer = true
+		}
+		in.RemoveField("readiness")
+	} else if err := nil {
 		return false, err
 	}
 

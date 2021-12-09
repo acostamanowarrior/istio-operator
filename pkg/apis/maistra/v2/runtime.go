@@ -109,6 +109,7 @@ type ComponentRuntimeConfig struct {
 	// .Values.*.resource, imagePullPolicy, etc.
 	// +optional
 	Container *ContainerConfig `json:"container,omitempty"`
+
 }
 
 // DeploymentRuntimeConfig allow customization of a component's Deployment
@@ -256,8 +257,24 @@ type CommonContainerConfig struct {
 	// +optional
 	Resources *corev1.ResourceRequirements `json:"resources,omitempty"`
 	// +optional
-	Readiness *corev1.Probe `json:"readinessProbe,omitempty"`
+	Readiness *corev1.Probe `json:"readiness,omitempty"`
 }
+
+// ReadinessProbe configuration for components
+//type ReadinessConfig struct {
+	// InitialDelaySeconds specifies the initial delay for the readiness probe
+	// .Values.*.readinessInitialDelaySeconds, defaults to 5
+	// +optional
+//	InitialDelaySeconds int32 `json:"initialDelaySeconds,omitempty"`
+	// PeriodSeconds specifies the period over which the probe is checked.
+	// .Values.*.readinessPeriodSeconds, defaults to 5
+	// +optional
+//	PeriodSeconds int32 `json:"periodSeconds,omitempty"`
+	// The number of seconds of inactivity after which the probe times out and the container is assumed to have failed.
+	// .Values.*.readinessTimeoutSeconds, defaults to 3
+	// +optional
+//	TimeoutSeconds int32 `json:"timeoutSeconds,omitempty"`
+//}
 
 // PodDisruptionBudget details
 // XXX: currently only configurable globally (i.e. no component values.yaml equivalent)
